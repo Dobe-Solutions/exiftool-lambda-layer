@@ -1,5 +1,5 @@
 #!/bin/sh
 docker build . -t exiftool-lambda-layer
-docker create --name output-layer exiftool-lambda-layer
+docker create --name exiftool-output-layer exiftool-lambda-layer
 
-docker cp output-layer:/tmp/exiftool-lambda-layer.zip .
+docker cp exiftool-output-layer:/tmp/exiftool-lambda-layer.zip .

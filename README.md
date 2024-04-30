@@ -1,6 +1,6 @@
 # exiftool-lambda-layer
 
-A simple build script to create a Lambda layer for [ExifTool](https://exiftool.org/). In order to run the build `Docker` needs to be installed on your build system.
+A simple build script to create a Lambda layer for [ExifTool](https://exiftool.org/). In order to run the build, [Docker](https://www.docker.com/) needs to be installed on your build system.
 
 To create the Lambda layer artifact run simply:
 
