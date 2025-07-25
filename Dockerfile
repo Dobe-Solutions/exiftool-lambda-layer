@@ -4,8 +4,8 @@ RUN dnf update -y && dnf groupinstall -y "Development Tools"
 
 ENV PREFIX_PATH=/opt
 
-ENV PERL_VERSION=5.38.2
-ENV EXIFTOOL_VERSION=12.70
+ENV PERL_VERSION=5.43.1
+ENV EXIFTOOL_VERSION=13.32
 
 # install perl
 RUN curl -L https://github.com/Perl/perl5/archive/refs/tags/v${PERL_VERSION}.tar.gz  | tar zx && \
